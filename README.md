@@ -3,7 +3,7 @@
 📝 super fast bot to quickly renaming files and updating thumbnails in a flash!
 
 ## Commands
-```
+```..
 start - get start the bot
 rename - replay with file to rename
 del - to delete your thumbnail 
