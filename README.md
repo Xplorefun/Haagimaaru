@@ -8,7 +8,7 @@ start - get start the bot
 rename - replay with file to rename
 del - to delete your thumbnail 
 view - view current thumbnail 
-```
+``` .
 
 
 ## Credit
