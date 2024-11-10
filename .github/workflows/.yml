@@ -28,6 +28,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run the bot
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          ADMIN: ${{ secrets.ADMIN }}
+          CAPTION: ${{ secrets.CAPTION }}
         run: |
           python bot.py  # Replace bot.py with your bot's main file
 
